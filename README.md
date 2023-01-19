@@ -1,6 +1,6 @@
 # Eiger
 
-## How to run the codes ?
+## How to run these codes ?
 
 ### Q1 
 ```python
