@@ -1,0 +1,1 @@
+SELECT D."name" , count(E.dep_id)  FROM public."department" as D LEFT OUTER JOIN public."employee" as E ON D.id = E.dep_id GROUP BY D."name"   ORDER BY count(E.dep_id) desc,D."name" 
